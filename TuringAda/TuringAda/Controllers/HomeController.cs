@@ -10,6 +10,8 @@ namespace TuringAda.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "HELLO";
+            ViewBag.ID = "WORLD";
             return View();
         }
 
@@ -23,6 +25,13 @@ namespace TuringAda.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Test()
+        {
+            ViewBag.Message = "BLAH BLAH BLAH";
 
             return View();
         }

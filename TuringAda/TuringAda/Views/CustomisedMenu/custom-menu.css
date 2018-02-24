@@ -1,0 +1,57 @@
+﻿.menu {
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    height: 200px;
+    width: 40%;
+    border-radius: 7px;
+    background-color: rgba(250,250,250,0.5);
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+    .menu-item:hover {
+        background-color: rgba(250,250,250,0.8);
+    }
+
+    .menu-item > a {
+        height: 100%;
+        width: 100%;
+    }
+
+        .menu-item > a > h4 {
+            color: hsla(0, 0%, 0%, 0.5);
+            font-size: 15pt;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-weight: 100;
+        }
+
+.menu-icon {
+    height: 43%;
+    width: 26%;
+    margin-bottom: 20px;
+}
+
+.client-dark {
+    background: url(clients-dark.svg) no-repeat center;
+    background-size: cover;
+}
+
+.engineers-dark {
+    background: url(engineers-dark.svg) no-repeat center;
+    background-size: cover;
+}
+
+.jobs-dark {
+    background: url(jobs-dark.svg) no-repeat center;
+    background-size: cover;
+}
+
+.assets-dark {
+    background: url(assets-dark.svg) no-repeat center;
+    background-size: cover;
+}

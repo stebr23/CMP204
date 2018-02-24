@@ -1,0 +1,89 @@
+﻿.sidebar {
+    height: 100vh;
+    width: 150px;
+    background-color: rgba(11,11,11,0.9);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.profile-container {
+    height: 80px;
+    flex-grow: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-item-list {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}
+
+.side-item {
+    align-items: center;
+    justify-content: center;
+    color: #b4b4b4;
+    align-items: center;
+    justify-content: center;
+    width: 110%;
+    text-align: left;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    height: 60px;
+    width: 60px;
+    background-color: #b4b4b4;
+    border-radius: 100%;
+    background: url(prof.png) no-repeat center;
+    background-size: cover;
+}
+
+.side-link {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: background-color 0.2s ease;
+    border-radius: 5px;
+    height: 75px;
+}
+
+    .side-link:hover {
+        background-color: rgba(250,250,250,0.2);
+    }
+
+    .side-link > h4 {
+        letter-spacing: 2px;
+        font-size: 8pt;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+
+.side-icon {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 8px;
+}
+
+.client {
+    background: url(clients.svg) no-repeat center;
+    background-size: cover;
+}
+
+.engineer {
+    background: url(engineers.svg) no-repeat center;
+    background-size: cover;
+}
+
+.job {
+    background: url(jobs.svg) no-repeat center;
+    background-size: cover;
+}
+
+.asset {
+    background: url(assets.svg) no-repeat center;
+    background-size: cover;
+}

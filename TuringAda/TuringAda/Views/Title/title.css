@@ -1,0 +1,27 @@
+﻿nav {
+    height: 80px;
+    width: calc(100% - 150px);
+    background-color: rgba(250,250,250,0.9);
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+}
+
+.title {
+    cursor: default;
+    font-weight: 100;
+    color: #666;
+    font-size: 14pt;
+    letter-spacing: 6px;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title-and {
+    color: #e6553a;
+}
