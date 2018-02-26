@@ -1,0 +1,118 @@
+﻿.jobs-overview-div {
+    width: 100%;
+}
+
+.jobs-header {
+    min-height: 40px;
+    width: 96%;
+    background-color: rgba(250,250,250,0.5);
+    color: #232323;
+    border-radius: 4px;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.jobs-overview {
+    height: 130px;
+    width: 96%;
+    background-color: rgba(250,250,250,0.5);
+    color: #232323;
+    border-radius: 4px;
+    margin-top: 5px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.jobs-engineer {
+    height: 80px;
+    width: 96%;
+    background-color: rgba(250,250,250,0.5);
+    color: #232323;
+    border-radius: 4px;
+    margin-top: 5px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.jobs-engineer-img {
+    height: 60px;
+    width: 60px;
+    background-color: #b4b4b4;
+    border-radius: 100%;
+    background: url(prof.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.jobs-assets {
+    min-height: 40px;
+    width: 96%;
+    background-color: rgba(250,250,250,0.5);
+    color: #232323;
+    border-radius: 4px;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.job-assets-header {
+    min-height: 40px;
+    width: 96%;
+    color: #232323;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+
+.job-assets-list {
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 0 0;
+    overflow-y: scroll;
+}
+
+    .job-assets-list > p {
+        width: 220px;
+        text-align: center;
+        background-color: rgba(250,250,250,0.5);
+        margin-bottom: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.4s ease;
+        height: 50px;
+    }
+
+.job-asset {
+    background-color: rgba(250,250,250,0.5);
+    border-radius: 4px;
+    padding: 1%;
+    height: 175px;
+    width: 125px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.job-asset-img {
+    background: url(hammer.jpg) no-repeat center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 7px;
+}
+
+.job-asset-id {
+}
+
+.job-asset-remove {
+    background-color: rgba(250,10,10,0.5);
+    padding: 2%;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    text-transform: uppercase;
+}

@@ -182,6 +182,7 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Views\Assets\assetts.css" />
     <Content Include="Views\CustomisedMenu\custom-menu.css" />
+    <Content Include="Views\Jobs\jobs.css" />
     <Content Include="Views\Login\login.css" />
     <Content Include="Views\Main\style.css" />
     <Content Include="Views\Title\title.css" />
@@ -213,6 +214,8 @@
     <Content Include="Views\Sidebar\Sidebar.cshtml" />
     <Content Include="Views\Main\Index.cshtml" />
     <Content Include="Views\CustomisedMenu\CustomisedMenu.cshtml" />
+    <Content Include="Views\Jobs\Jobs.cshtml" />
+    <Content Include="Views\Jobs\JobOverview.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
